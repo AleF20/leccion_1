@@ -14,7 +14,7 @@ class MenuPantalla extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         children: [
           const Text(
-            'Mis ejercicios',
+            'Leccion1-Ejercicios',
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
@@ -33,7 +33,6 @@ class MenuPantalla extends StatelessWidget {
               contentPadding: const EdgeInsets.all(16),
               title: const Text('Ejercicio 4'),
               subtitle: const Text('Números perfectos'),
-              trailing: const Icon(Icons.arrow_forward_ios, size: 18),
               onTap: () {
                 Navigator.pushNamed(context, '/ejercicio4');
               },
@@ -48,7 +47,6 @@ class MenuPantalla extends StatelessWidget {
               contentPadding: const EdgeInsets.all(16),
               title: const Text('Ejercicio 5'),
               subtitle: const Text('Serie de Fibonacci'),
-              trailing: const Icon(Icons.arrow_forward_ios, size: 18),
               onTap: () {
                 Navigator.pushNamed(context, '/ejercicio5');
               },
@@ -63,7 +61,6 @@ class MenuPantalla extends StatelessWidget {
               contentPadding: const EdgeInsets.all(16),
               title: const Text('Ejercicio 6'),
               subtitle: const Text('Número Armstrong'),
-              trailing: const Icon(Icons.arrow_forward_ios, size: 18),
               onTap: () {
                 Navigator.pushNamed(context, '/ejercicio6');
               },
