@@ -42,12 +42,6 @@ class _Ejercicio5PantallaState extends State<Ejercicio5Pantalla> {
   }
 
   @override
-  void dispose() {
-    txtNumero.dispose();
-    super.dispose();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(

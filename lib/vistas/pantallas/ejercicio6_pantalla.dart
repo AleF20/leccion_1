@@ -33,7 +33,6 @@ class _Ejercicio6PantallaState extends State<Ejercicio6Pantalla> {
       resultado = '';
     });
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
